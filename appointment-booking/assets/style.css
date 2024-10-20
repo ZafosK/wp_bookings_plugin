@@ -1,0 +1,48 @@
+/* Style for the booking form */
+.ab-booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.ab-booking-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.ab-booking-form input[type="text"],
+.ab-booking-form input[type="email"],
+.ab-booking-form input[type="date"],
+.ab-booking-form input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.ab-booking-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ab-booking-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.ab-booking-form p {
+    margin-top: 20px;
+    color: #28a745;
+    font-weight: bold;
+}
